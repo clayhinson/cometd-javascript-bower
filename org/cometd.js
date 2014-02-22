@@ -380,7 +380,6 @@ org.cometd.RequestTransport = function()
 
     function _transportSend(envelope, request)
     {
-        this.transportSend(envelope, request);
         request.expired = false;
 
         if (!envelope.sync)
@@ -410,6 +409,8 @@ org.cometd.RequestTransport = function()
                 envelope.onFailure(xhr, envelope.messages, failure);
             }, delay);
         }
+
+       this.transportSend(envelope, request);
     }
 
     function _queueSend(envelope)
