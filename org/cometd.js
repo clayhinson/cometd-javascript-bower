@@ -553,8 +553,8 @@ org.cometd.RequestTransport = function()
             id: requestId,
             metaConnect: true
         };
-        _transportSend.call(this, envelope, request);
         _metaConnectRequest = request;
+        _transportSend.call(this, envelope, request);
     }
 
     _self.send = function(envelope, metaConnect)
