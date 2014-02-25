@@ -8,6 +8,7 @@
   "keywords": [
     "cometd"
   ],
+  "main": "org/cometd.js",
   "license": "apache-2.0",
   "homepage": "http://cometd.org/",
   "ignore": [
