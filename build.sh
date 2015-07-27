@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # updates the JS from the master branch by building the demo package
-git clone -b 3.0.5 --single-branch https://github.com/cometd/cometd.git
+git clone -b master --single-branch https://github.com/cometd/cometd.git
 
 cat ./cometd/cometd-javascript/common/src/main/js/org/cometd/cometd-namespace.js \
       ./cometd/cometd-javascript/common/src/main/js/org/cometd/CometD.js \
