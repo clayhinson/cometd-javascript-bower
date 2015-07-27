@@ -8,9 +8,12 @@
   "keywords": [
     "cometd"
   ],
-  "main": "org/cometd.js",
+  "main": "dist/cometd.js",
   "license": "apache-2.0",
   "homepage": "http://cometd.org/",
+  "dependencies": {
+    "jquery" : "2.1.4"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
