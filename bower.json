@@ -1,16 +1,20 @@
 {
   "name": "cometd-javascript-bower",
-  "version": "3.0.0-PATCHED",
+  "version": "3.0.6-SNAPSHOT",
   "authors": [
-    "Clay Hinson <clayhinson@gmail.com>"
+    "Clay Hinson <clayhinson@gmail.com>",
+    "Carlo Alberto Degli Atti <lordkada@gmail.com>"
   ],
   "description": "Bower-installable distribution of the cometd javascript libraries (from https://github.com/cometd/cometd). The version number tracks the current release of the cometd library.",
   "keywords": [
     "cometd"
   ],
-  "main": "org/cometd.js",
+  "main": "dist/cometd.js",
   "license": "apache-2.0",
   "homepage": "http://cometd.org/",
+  "dependencies": {
+    "jquery" : "2.1.4"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
