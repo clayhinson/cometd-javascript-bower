@@ -15,6 +15,10 @@ cat ./cometd/cometd-javascript/common/src/main/js/org/cometd/cometd-namespace.js
       ./cometd/cometd-javascript/common/src/main/js/org/cometd/Utils.js \
       ./cometd/cometd-javascript/common/src/main/js/org/cometd/CallbackPollingTransport.js \
       ./cometd/cometd-javascript/common/src/main/js/org/cometd/WebSocketTransport.js \
+      ./cometd/cometd-javascript/common/src/main/webapp/org/cometd/AckExtension.js \
+      ./cometd/cometd-javascript/common/src/main/webapp/org/cometd/ReloadExtension.js \
+      ./cometd/cometd-javascript/common/src/main/webapp/org/cometd/TimeStampExtension.js \
+      ./cometd/cometd-javascript/common/src/main/webapp/org/cometd/TimeSyncExtension.js \
       ./cometd/cometd-javascript/jquery/src/main/webapp/jquery/jquery.cometd.js \
       ./cometd/cometd-javascript/jquery/src/main/webapp/jquery/jquery.cometd-ack.js \
       ./cometd/cometd-javascript/jquery/src/main/webapp/jquery/jquery.cometd-reload.js \
@@ -22,3 +26,4 @@ cat ./cometd/cometd-javascript/common/src/main/js/org/cometd/cometd-namespace.js
       ./cometd/cometd-javascript/jquery/src/main/webapp/jquery/jquery.cometd-timesync.js > ./dist/cometd.js
 
 rm -rf cometd
+
