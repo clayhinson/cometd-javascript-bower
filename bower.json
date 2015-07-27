@@ -2,7 +2,8 @@
   "name": "cometd-javascript-bower",
   "version": "3.0.5",
   "authors": [
-    "Clay Hinson <clayhinson@gmail.com>"
+    "Clay Hinson <clayhinson@gmail.com>",
+    "Carlo Alberto Degli Atti <lordkada@gmail.com>"
   ],
   "description": "Bower-installable distribution of the cometd javascript libraries (from https://github.com/cometd/cometd). The version number tracks the current release of the cometd library.",
   "keywords": [
